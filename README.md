@@ -1,2 +1,0 @@
-# mahdihazrati.ir
-my website :)
