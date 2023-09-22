@@ -23,6 +23,8 @@ minimal_mistakes_skin: default # => "air", "aqua", "contrast", "dark", "dirt", "
 search: true
 locale: "fa-IR"
 lang: "fa"
+dir: "rtl"
+direction: "rtl"
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
