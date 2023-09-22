@@ -66,18 +66,18 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "به وبسایت شخصی من خوش آمدید من یک برنامه نویس هستم که علاقه زیادی به ساخت چیز های جدید دارم"
   links:
-    - label: "Website"
+    - label: "وبسایت"
       icon: "fas fa-fw fa-link"
       url: "https://mahdi-hazrati.github.io/"
-    - label: "GitHub"
+    - label: "گیت هاب"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Mahdi-Hazrati"
 
 footer:
   links:
-    - label: "GitHub"
+    - label: "باگ داره؟ در گیت هاب ویرایش کنید."
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Mahdi-Hazrati"
+      url: "https://github.com/Mahdi-Hazrati/mahdihazrati.ir"
 
 defaults:
   # _posts
