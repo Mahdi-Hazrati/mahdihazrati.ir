@@ -1,9 +1,8 @@
+# main links
 main:
-  - title: "پست ها"
-    url: /posts/
-  - title: "دسته بندی"
-    url: /categories/
-  - title: "تگ ها"
-    url: /tags/
-  - title: "درباره من"
+  - title: "درباره"
     url: /about/
+  - title: "تماس با من"
+    url: /contact/
+  - title: "دسته‌بندی"
+    url: /tags/

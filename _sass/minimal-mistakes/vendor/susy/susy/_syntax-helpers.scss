@@ -44,10 +44,10 @@
 ///     width: su-call('su-span', $context);
 ///
 ///     @if index($span, 'last') {
-///       float: right;
-///     } @else {
 ///       float: left;
-///       margin-right: su-call('su-gutter', $context);
+///     } @else {
+///       float: right;
+///       margin-left: su-call('su-gutter', $context);
 ///     }
 ///   }
 

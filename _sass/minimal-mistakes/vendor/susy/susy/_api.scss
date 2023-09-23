@@ -185,9 +185,9 @@
 ///
 /// @example scss - add gutters before or after an element
 ///   .floats {
-///     float: left;
+///     float: right;
 ///     width: span(3 of 6);
-///     margin-left: gutter(of 6);
+///     margin-right: gutter(of 6);
 ///   }
 ///
 /// @example scss - add gutters to padding
@@ -282,7 +282,7 @@
 /// @example scss - floats
 ///   .float {
 ///     width: span(3);
-///     margin-right: gutter();
+///     margin-left: gutter();
 ///   }
 ///
 /// @example scss - flexbox
@@ -294,20 +294,20 @@
 ///
 /// @example scss - pushing and pulling
 ///   .push-3 {
-///     margin-left: span(3 wide);
+///     margin-right: span(3 wide);
 ///   }
 ///
 ///   .pull-3 {
-///     margin-left: 0 - span(3 wide);
+///     margin-right: 0 - span(3 wide);
 ///   }
 ///
 /// @example scss - building an attribute system
 ///   // markup example: <div data-span="last 3"></div>
 ///   [data-span] {
-///     float: left;
+///     float: right;
 ///
 ///     &:not([data-span*='last']) {
-///       margin-right: gutter();
+///       margin-left: gutter();
 ///     }
 ///   }
 ///

@@ -17,7 +17,7 @@
 //    - CSS reset for buttons
 //    - Close icon
 //    - "1 of X" counter
-//    - Navigation (left/right) arrows
+//    - Navigation (right/left) arrows
 //    - Iframe content type styles
 //    - Image content type styles
 //    - Media query where size of arrows is reduced
@@ -34,8 +34,8 @@
 $mfp-overlay-color:                   #0b0b0b !default;
 $mfp-overlay-opacity:                 0.8 !default;
 $mfp-shadow:                          0 0 8px rgba(0, 0, 0, 0.6) !default; // shadow on image or iframe
-$mfp-popup-padding-left:              8px !default; // Padding from left and from right side
-$mfp-popup-padding-left-mobile:       6px !default; // Same as above, but is applied when width of window is less than 800px
+$mfp-popup-padding-right:              8px !default; // Padding from right and from left side
+$mfp-popup-padding-right-mobile:       6px !default; // Same as above, but is applied when width of window is less than 800px
 
 $mfp-z-index-base:                    1040 !default; // Base z-index of popup
 $mfp-include-arrows:                  true !default; // include styles for nav arrows
@@ -77,7 +77,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
 // Transluscent overlay
 .mfp-bg {
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   z-index: $mfp-z-index-base + 2;
@@ -94,7 +94,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
 // Wrapper for popup
 .mfp-wrap {
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   z-index: $mfp-z-index-base + 3;
@@ -109,9 +109,9 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 0;
+  right: 0;
   top: 0;
-  padding: 0 $mfp-popup-padding-left;
+  padding: 0 $mfp-popup-padding-right;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -142,7 +142,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
-  text-align: left;
+  text-align: right;
   z-index: $mfp-z-index-base + 5;
 }
 .mfp-inline-holder,
@@ -224,8 +224,8 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   width: auto;
   text-align: center;
   margin-top: -0.8em;
-  left: 8px;
   right: 8px;
+  left: 8px;
   z-index: $mfp-z-index-base + 4;
   a {
     color: $mfp-controls-text-color;
@@ -279,7 +279,7 @@ button {
   line-height: 44px;
 
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   text-decoration: none;
   text-align: center;
@@ -315,9 +315,9 @@ button {
 .mfp-iframe-holder {
   .mfp-close {
     color: $mfp-controls-color;
-    right: -6px;
-    text-align: right;
-    padding-right: 6px;
+    left: -6px;
+    text-align: left;
+    padding-left: 6px;
     width: 100%;
   }
 }
@@ -326,7 +326,7 @@ button {
 .mfp-counter {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   color: $mfp-controls-text-color;
   font-size: 12px;
   line-height: 18px;
@@ -366,10 +366,10 @@ button {
       width: 0;
       height: 0;
       position: absolute;
-      left: 0;
+      right: 0;
       top: 0;
       margin-top: 35px;
-      margin-left: 35px;
+      margin-right: 35px;
       border: medium inset transparent;
     }
 
@@ -390,31 +390,31 @@ button {
 
   }
 
-  .mfp-arrow-left {
-    left: 0;
-
-    &:after,
-    .mfp-a {
-      border-right: 17px solid $mfp-controls-color;
-      margin-left: 31px;
-    }
-    &:before,
-    .mfp-b {
-      margin-left: 25px;
-      border-right: 27px solid $mfp-controls-border-color;
-    }
-  }
-
   .mfp-arrow-right {
     right: 0;
+
     &:after,
     .mfp-a {
       border-left: 17px solid $mfp-controls-color;
-      margin-left: 39px
+      margin-right: 31px;
     }
     &:before,
     .mfp-b {
+      margin-right: 25px;
       border-left: 27px solid $mfp-controls-border-color;
+    }
+  }
+
+  .mfp-arrow-left {
+    left: 0;
+    &:after,
+    .mfp-a {
+      border-right: 17px solid $mfp-controls-color;
+      margin-right: 39px
+    }
+    &:before,
+    .mfp-b {
+      border-right: 27px solid $mfp-controls-border-color;
     }
   }
 }
@@ -444,7 +444,7 @@ button {
       position: absolute;
       display: block;
       top: 0;
-      left: 0;
+      right: 0;
       width: 100%;
       height: 100%;
       box-shadow: $mfp-shadow;
@@ -480,11 +480,11 @@ button {
     &:after {
       content: '';
       position: absolute;
-      left: 0;
+      right: 0;
       top: $mfp-image-padding-top;
       bottom: $mfp-image-padding-bottom;
       display: block;
-      right: 0;
+      left: 0;
       width: auto;
       height: auto;
       z-index: -1;
@@ -509,16 +509,16 @@ button {
     margin-top: -$mfp-image-padding-bottom + 4;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     width: 100%;
     cursor: auto;
   }
   .mfp-title {
-    text-align: left;
+    text-align: right;
     line-height: 18px;
     color: $mfp-caption-title-color;
     word-wrap: break-word;
-    padding-right: 36px; // leave some space for counter at right side
+    padding-left: 36px; // leave some space for counter at left side
   }
 
   .mfp-image-holder {
@@ -543,8 +543,8 @@ button {
        */
       .mfp-img-mobile {
         .mfp-image-holder {
-          padding-left: 0;
           padding-right: 0;
+          padding-left: 0;
         }
         img {
           &.mfp-img {
@@ -559,7 +559,7 @@ button {
           }
           small {
             display: inline;
-            margin-left: 5px;
+            margin-right: 5px;
           }
         }
         .mfp-bottom-bar {
@@ -577,12 +577,12 @@ button {
           }
         }
         .mfp-counter {
-          right: 5px;
+          left: 5px;
           top: 3px;
         }
         .mfp-close {
           top: 0;
-          right: 0;
+          left: 0;
           width: 35px;
           height: 35px;
           line-height: 35px;
@@ -604,17 +604,17 @@ button {
     -webkit-transform: scale(0.75);
     transform: scale(0.75);
   }
-  .mfp-arrow-left {
+  .mfp-arrow-right {
     -webkit-transform-origin: 0;
     transform-origin: 0;
   }
-  .mfp-arrow-right {
+  .mfp-arrow-left {
     -webkit-transform-origin: 100%;
     transform-origin: 100%;
   }
   .mfp-container {
-    padding-left: $mfp-popup-padding-left-mobile;
-    padding-right: $mfp-popup-padding-left-mobile;
+    padding-right: $mfp-popup-padding-right-mobile;
+    padding-left: $mfp-popup-padding-right-mobile;
   }
 }
 
@@ -629,8 +629,8 @@ button {
     }
     .mfp-bottom-bar {
       width: 600px;
-      left: 50%;
-      margin-left: -300px;
+      right: 50%;
+      margin-right: -300px;
       margin-top: 5px;
       padding-bottom: 5px;
     }
@@ -642,7 +642,7 @@ button {
     }
     .mfp-close {
       top: 0;
-      right: 0;
+      left: 0;
       padding-top: 0;
     }
   }

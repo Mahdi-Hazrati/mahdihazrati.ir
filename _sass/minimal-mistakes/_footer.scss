@@ -4,9 +4,9 @@
 
 .page__footer {
   @include clearfix;
-  float: left;
-  margin-left: 0;
+  float: right;
   margin-right: 0;
+  margin-left: 0;
   width: 100%;
   margin-top: 3em;
   color: $muted-text-color;
@@ -18,8 +18,8 @@
 
   footer {
     @include clearfix;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     margin-top: 2em;
     max-width: 100%;
     padding: 0 1em 2em;
@@ -46,7 +46,7 @@
   }
 }
 
-.page__footer-copyright {
+.page__footer-copyleft {
   font-family: $global-font-family;
   font-size: $type-size-7;
 }
@@ -69,11 +69,11 @@
 
   li + li:before {
     content: "";
-    padding-right: 5px;
+    padding-left: 5px;
   }
 
   a {
-    padding-right: 10px;
+    padding-left: 10px;
     font-weight: bold;
   }
 
