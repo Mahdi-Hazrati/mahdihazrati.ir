@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "fa-IR"
 title                    : "مهدی حضرتی برنامه نویس - وبسایت شخصی"
 title_separator          : "|"
-subtitle                 : "وبسایت شخصی مهدی حضرتی" # site tagline that appears below site title in masthead
+subtitle                 : "برنامه نویس فرانت اند" # site tagline that appears below site title in masthead
 name                     : "مهدی حضرتی"
 description              : "وبسایت شخصی مهدی حضرتی توسعه دهنده فرانت اند"
 url                      : "http://mahdihazrati.ir/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -112,7 +112,7 @@ author:
   links:
     - label: "ایمیل"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your hi@mahdihazrati.ir"
+      # url: "mailto:your hi@mahdihazrati.ir"
     - label: "وبسایت"
       icon: "fas fa-fw fa-link"
       url: "https://your-website.com"
@@ -142,7 +142,7 @@ footer:
       icon: "fab fa-fw fa-github"
       # url:
     - label: "وبسایت باگ داره؟ در گیت هاب درستش کنید!"
-      icon: "fab fa-fw fa-gitlab"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/Mahdi-Hazrati/mahdihazrati.ir"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
