@@ -1397,7 +1397,7 @@ fa: &DEFAULT_FA
   toc_label                  : "در این صفحه"
   ext_link_label             : "لینک مستقیم"
   less_than                  : "کمتر از"
-  minute_read                : "طول مطالعه:"
+  minute_read                : "مدت مطالعه:"
   share_on_label             : "اشتراک‌گذاری در"
   meta_label                 :
   tags_label                 : "موضوعات: "
@@ -1407,7 +1407,7 @@ fa: &DEFAULT_FA
   comments_title             : "نظرات"
   more_label                 : "ادامه مطلب"
   related_label              : "ممکنه از این مطالب هم خوشت بیاد"
-  follow_label               : "لینک‌ها: "
+  follow_label               : "لینک های مهم: "
   feed_label                 : "فید RSS"
   powered_by                 : "از"
   website_label              : "سایت"
