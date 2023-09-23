@@ -2,9 +2,10 @@
 title: "چطور برنامه نویسی رو یادگرفتم؟"
 categories:
   - programming
-  - how-to-learn-code
-  - react-js
 tags:
+  -  react js
+  -  how-to-learn-code
+  - قثش
   - برنامه نویسی
   - ری اکت
   - چطور برنامه نویسی رو یادگرفتم
