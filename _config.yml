@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "fa-IR"
-title                    : "عنوان سایت"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "مهدی حضرتی برنامه نویس - وبسایت شخصی"
+title_separator          : "|"
+subtitle                 : "وبسایت شخصی مهدی حضرتی" # site tagline that appears below site title in masthead
+name                     : "مهدی حضرتی"
+description              : "وبسایت شخصی مهدی حضرتی توسعه دهنده فرانت اند"
+url                      : "http://mahdihazrati.ir/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "Mahdi-Hazrati/mahdihazrati.ir" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "./assets/images/no-image.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -59,8 +59,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
@@ -104,27 +104,27 @@ analytics:
 
 # Site Author
 author:
-  name             : "اسمت"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "من آدم **باحالی** هستم!"
-  location         : "زیر آسمون آبی"
-  email            :
+  name             : "مهدی حضرتی"
+  avatar           : "./assets/images/bio-photo.jpg"
+  bio              : "سلام من مهدی هستم یک برنامه نویس که به ساخت چیز های جدید علاقه زیادی داره"
+  location         : "تهران"
+  email            : "contact@mahdihazrati.ir"
   links:
-    - label: "Email"
+    - label: "ایمیل"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+      url: "mailto:your hi@mahdihazrati.ir"
+    - label: "وبسایت"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
+    - label: "گیت هاب"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Mahdi-Hazrati"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -141,9 +141,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
-    - label: "GitLab"
+    - label: "وبسایت باگ داره؟ در گیت هاب درستش کنید!"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/Mahdi-Hazrati/mahdihazrati.ir"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
