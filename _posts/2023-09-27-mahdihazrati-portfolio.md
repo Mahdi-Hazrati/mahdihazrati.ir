@@ -1,5 +1,5 @@
 ---
-title: "📃 دانلود رزومه برنامه نویسی من"
+title:  دانلود رزومه برنامه نویسی من 📃"
 header:
   teaser: "assets/images/bio-photo.jpg"
 categories:
@@ -16,5 +16,4 @@ toc: true
 سلام به وبسایت من خیلی خوش اومدید.
 از این صفحه می توانید رزومه من رو بصورت فایل پی دی اف دانلود کنید.
 
-<a href="https://mahdihazrati.ir/assets/document/mahdihazrati-portfoilo.pdf" class="btn--success">دانلود رزومه بصورت فایل PDF</a>
-{: .notice--success}
+[دانلود رزومه بصورت فایل PDF](https://mahdihazrati.ir/assets/document/mahdihazrati-portfoilo.pdf){: .btn .btn--success}
