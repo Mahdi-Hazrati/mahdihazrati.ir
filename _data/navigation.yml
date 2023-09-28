@@ -2,7 +2,9 @@
 main:
   - title: "درباره"
     url: /about/
+  - title: "رزومه"
+    url: /cv/
   - title: "تماس با من"
     url: /contact/
-  - title: "دسته‌بندی"
+  - title: "پست ها"
     url: /tags/
