@@ -7,3 +7,19 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+@font-face {
+    font-family: 'Sahel';
+    src: url('../fonts/Sahel.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Sahel.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Sahel', sans-serif; /* Apply Sahel font */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sahel', sans-serif; /* Apply Sahel font for headings */
+}
