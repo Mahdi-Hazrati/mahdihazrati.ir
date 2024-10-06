@@ -3,3 +3,5 @@ main:
     url: /
   - title: "رزومه"
     url: /portfolio/
+  - title: *
+    url: /game-of-life/
