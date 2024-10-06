@@ -414,17 +414,17 @@ defaults:
       share: true
   # _pets
   - scope:
-      path: ""
-      type: pets
+      path: "/game-of-life"
+      type: game
     values:
       layout: single
       author_profile: true
       share: true
   # _portfolio
   - scope:
-      path: ""
+      path: "/portfolio"
       type: portfolio
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
