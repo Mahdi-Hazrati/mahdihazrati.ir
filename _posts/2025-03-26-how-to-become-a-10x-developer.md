@@ -13,7 +13,7 @@ tags:
   - AI
   - Prompt Engineering
   - 
-image: /assets/images/10x-developer.jpg
+thumbnail: assets/images/10x-developer.jpg
 author: "Mahdi Hazrati"
 ---
 ### **🤔 برنامه‌نویس 10x یعنی چی؟**  
